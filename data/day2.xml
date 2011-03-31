@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<schedule conference="pycon4" id="day2" time_slot="15">
+  <slot time="08:00:00">
+    <event tracks="3" tags="special" duration="4" title="registrazione"/>
+  </slot>
+  <slot time="09:00:00">
+    <event tracks="1" tags="scoprire" duration="3" title="Python e produttività: Applicazioni GUI in 15 minuti!">
+      <talk url="http://www.pycon.it/conference/talks/python-e-produttivita-applicazioni-gui-in-15-minuti">
+        <speaker url="http://www.pycon.it/conference/speakers/fabio-pliger" name="Fabio Pliger" image="http://www.pycon.it/media/stuff/speaker/resized/.jpg"/>
+        <abstract lang="it">Un argomento delicato e più volte sollevato  in Python , soprattutto da chi viene da altri ambienti di sviluppo, è quello delle interfacce grafiche e a quanto si possa essere veramente produttivi in Python quando si devno costruire applicazioni con interfacce grafice serie. Il talk vuole, allo stesso tempo, dare indicazioni di alcune possibili soluzioni al problema e, soprattutto, dimostrare che Python può essere enormemente produttivo anche quando si parla interfacce grafice ( non web! ). Saranno presentati esempi e casi d'uso pratici durante il talk.</abstract>
+        <abstract lang="en">Graphical interfaces in Python and how you can be really productive when you must build applications in Python using solid graphical interfaces, represent a delicate and very often raised subject , especially by those who come from other development environments. Meanwhile, the talk wants to give some directions about possible solutions to the problem, and, more than else, to show that Python can be enormously productive even when we talk about graphical interfaces (not web interfaces!). During the talk, examples and practical use cases  will be presented.</abstract>
+      </talk>
+    </event>
+    <event tracks="1" tags="diffondere" duration="3" title="Creativi con Python e GStreamer">
+      <talk url="http://www.pycon.it/conference/talks/creativi-con-python-e-gstreamer">
+        <speaker url="http://www.pycon.it/conference/speakers/alessandro-decina" name="Alessandro Decina" image="http://www.pycon.it/media/stuff/speaker/resized/.jpg"/>
+        <abstract lang="it">Creativi con Python e GStreamer.GStreamer e' un framework open source per lo sviluppo di applicazionimultimediali. I bindings python permettono di utilizzare ed estendere ilframework in maniera agile ed efficace.Nel talk impareremo quali sono i concetti base di gstreamer e vedremocome scrivere applicazioni cross platform con python.</abstract>
+        <abstract lang="en">Creative with Python and GStreamerGStreamer is an open source framework for multimedia applications development. Python bindings allow to use and extend the framework in  an agile and effective way.During the talk we'll learn what GStreamer basic ideas are and we'll see how to write cross-platform applications with Python.</abstract>
+      </talk>
+    </event>
+    <event tracks="1" tags="imparare" duration="3" title="socket e SocketServer: il framework per i server Internet in Python">
+      <talk url="http://www.pycon.it/conference/talks/socket-e-socketserver-il-framework-per-i-server-in">
+        <speaker url="http://www.pycon.it/conference/speakers/marco-spisto" name="Marco Spisto" image="http://www.pycon.it/media/stuff/speaker/resized/.jpg"/>
+        <speaker url="http://www.pycon.it/conference/speakers/giovanni-bajo" name="Giovanni Bajo" image="http://www.pycon.it/media/stuff/speaker/resized/giovanni-bajo.jpg"/>
+        <abstract lang="it">La libreria standard di Python mette a disposizione un framework per i server di rete basato sui moduli socket e SocketServer. Nel talk verranno analizzate sia le implementazioni di questi due moduli, sia il primo caso di utilizzo incluso proprio nella libreria standard, ossia il server HTTP nei suoi vari livelli di implementazione: BaseHTTPServer, SimpleHTTPServer, CGIHTTPServer.</abstract>
+        <abstract lang="en">Python standard library places at our disposal a netserver framework based on socket and SocketServer models. In the talk we will analyse both the implementation of these two models and the first case of use which is included right in the standard library, that is HTTP server in its various levels of implementation: BaseHTTPServer, SimpleHTTPServer, CGIHTTPServer. </abstract>
+      </talk>
+    </event>
+  </slot>
+  <slot time="09:45:00">
+    <event tracks="1" tags="scoprire" duration="3" title="SPyppolare o non sPyppolare?">
+      <talk url="http://www.pycon.it/conference/talks/spyppolare-o-non-spyppolare">
+        <speaker url="http://www.pycon.it/conference/speakers/federico-di-gregorio" name="Federico Di Gregorio" image="http://www.pycon.it/media/stuff/speaker/resized/federico-di-gregorio.jpg"/>
+        <abstract lang="it">Prima o poi succede a tutti. Incontri Python, la sua sintassi incredibilmente limpida e quell'indentazione che ti toglie il fiato. Ti innamori. Java ti faceva già schifo, ok, ma improvvisamente anche tutti gli altri linguaggi perdono qualcosa. Vuoi Python e solo Python e Python per sempre. Ma ogni idillio, anche quello con pochi bachi, è destinato a morire e prima o poi ti ritroverai a guardare con aria malinconia schermate colme di parentesi graffe. Il trucco è non lasciarsi sopraffare dalla melanconia e con animo saldo programmare pythonicamente anche in altri linguaggi. La list comprehension è uno stato dell'anima, non dell'interprete. &amp;quot;import multiprocessing&amp;quot;, se lo fissi abbastanza a lungo in preda a sostanze psicotrope, si trasforma in qualcosa di utile anche in altri linguaggi. E lambda, (oh!, lambda, amore mio), la ritrovi chiusa al fondo di qualche manuale, dove meno te l'aspetti. E quindi... ecco come uscire dal tunnel se per qualche strano, oltraggioso e debilitante motivo volete programmare in Python senza poterlo davvero fare.</abstract>
+        <abstract lang="en">Sooner or later, it happens to anyone. You meet Python, its incredibly clean synthax and that indentation that takes your breath away. You fall in love. Java had already made you sick, that's ok, but suddenly all the other languages lose something too. You want Python, and Python only, and Python forever. But any romance, even the one with less bugs, is bound to die, and sooner or later you'll find yourself watching with melancholy a screen full of braces. The trick is not to let melancholy overcome you, and, with a strong heart, to program pythonically in other languages too. List comprehension is a state of living, not a mood of the interpreter. &amp;quot;Import multiuprocessing&amp;quot;, if you stare at it long enough under the effect of psychotropic subtances it turns into something useful even in other languages. And lambda (oh! lambda, my love), you find it imprisoned at the end of some manual, when you least expect it. And so...here's how to get out of the tunnel if, for a strange, outrageous and debilitating reason you want to program in Python without really having the possibility. </abstract>
+      </talk>
+    </event>
+    <event tracks="1" tags="diffondere" duration="3" title="Monitoraggio del Traffico di Rete Usando Python ed ntop">
+      <talk url="http://www.pycon.it/conference/talks/monitoraggio-del-traffico-di-rete-usando-python-ed">
+        <speaker url="http://www.pycon.it/conference/speakers/luca-deri" name="Luca Deri" image="http://www.pycon.it/media/stuff/speaker/resized/.jpg"/>
+        <abstract lang="it">ntop (http://www.ntop.org) e' un progetto open-source finalizzato al monitoraggio del traffico di rete. Al fine di rendere piu' il monitoraggio piu' semplice ed aperto alle molteplici esigenze degli utenti, e' stato scelto python come linguaggio di scripting includendo un motore python dentro ntop. Obiettivo di questo intervento, e' di spiegare come e' stata fatta l'integrazione ed dimostrare alcuni esempi di problemi di monitoraggio di rete, risolti efficacemente utilizzando ntop+python.</abstract>
+        <abstract lang="en">ntop (http://www.ntop.org) is an open-source project aimed at monitoring network traffic. Recently, in order to make the tool even more flexible than before this for letting people adapt it to their needs, the python interpreter has been embedded into ntop. The result is that users can now use python for scripting ntop or building monitoring applications in python leveraging the ntop monitoring engine. This talk presents the ntop/python integration and describes some real network monitoring problems that have been effectively solved using this solution.</abstract>
+      </talk>
+    </event>
+    <event tracks="1" tags="imparare" duration="3" title="Undici anni di lavoro con Python">
+      <talk url="http://www.pycon.it/conference/talks/undici-anni-di-lavoro-con-python">
+        <speaker url="http://www.pycon.it/conference/speakers/nicola-larosa" name="Nicola Larosa" image="http://www.pycon.it/media/stuff/speaker/resized/nicola-larosa.jpg"/>
+        <speaker url="http://www.pycon.it/conference/speakers/michele-simionato" name="Michele Simionato" image="http://www.pycon.it/media/stuff/speaker/resized/michele-simionato.jpg"/>
+        <abstract lang="it">Lavorare quasi esclusivamente con Python, in Italia, per undici anni non è un'esperienza comune.Racconterò le varie tappe di questo tragitto, soffermandomi sulle diverse situazioni lavorative,ed illustrando motivazioni e circostanze dietro parecchie scelte:perché Python;perché il software libero;come introdurre Python in aziende piccole, medie, grandi;come diffondere Python in Italia;come passare da dipendente a consulente;come rendersi appetibili al mercato del lavoro.Ogni tragitto di vita e di lavoro è diverso: spero che il mio possa offrirvi spunti per migliorare il vostro.</abstract>
+        <abstract lang="en"/>
+      </talk>
+    </event>
+  </slot>
+  <slot time="10:30:00">
+    <event tracks="3" tags="break" duration="3" title="Coffee break"/>
+  </slot>
+  <slot time="11:15:00">
+    <event tracks="3" tags="scoprire" duration="3" title="Using Python and Selenium for parallel, cross-browser testing in the cloud">
+      <talk url="http://www.pycon.it/conference/talks/using-python-and-selenium-parallel-cross-browser-t">
+        <speaker url="http://www.pycon.it/conference/speakers/raymond-hettinger" name="Raymond Hettinger " image="http://www.pycon.it/media/stuff/speaker/resized/raymond-hettinger.jpg"/>
+        <abstract lang="it"/>
+        <abstract lang="en">Selenium is the emerging standard for functional web testing.  It is easy
+to get started with a simple Firefox add-in that records a session and
+writes out the actions in an editable Python script.
+
+This talk walks through an example of how to build a series of tests,
+modify them to use multiple input datasets and run the tests in
+multiple browsers.  The tools are open source and have extensive
+Python bindings.
+
+We also explore the Sauce Labs extensions to Selenium that
+improve usability and reliability.   We modify our script to run
+the tests in parallel in the Sauce cloud and then instantly
+review the results in a recorded video.
+
+Afterwards, we discuss the upcoming Selenium 2 release which
+incorporates web-driver and frees the tests from the Javascript sandbox.
+
+Walk away with an understanding of how to test web applications
+using Python, Selenium, and Sauce Labs extensions.</abstract>
+      </talk>
+    </event>
+  </slot>
+  <slot time="12:00:00">
+    <event tracks="3" tags="scoprire" duration="1" title="Estrazione premi"/>
+  </slot>
+  <slot time="12:15:00">
+    <event tracks="2" tags="scoprire" duration="3" title="Recruiting"/>
+    <event tracks="1" tags="imparare" duration="3" title="Lightning talks"/>
+  </slot>
+  <slot time="13:00:00">
+    <event tracks="3" tags="break" duration="6" title="Pranzo"/>
+  </slot>
+  <slot time="14:30:00">
+    <event tracks="1" tags="scoprire" duration="3" title="Python without Monty: Reasons to use PostgreSQL">
+      <talk url="http://www.pycon.it/conference/talks/python-without-monty-reasons-to-use-postgresql">
+        <speaker url="http://www.pycon.it/conference/speakers/simon-riggs" name="Simon Riggs" image="http://www.pycon.it/media/stuff/speaker/resized/.jpg"/>
+        <abstract lang="it">Many users will be familiar with MySQL, though many developers have never looked at PostgreSQL.This talk is a short but technical introduction to all of the reasons why Python users should be using PostgreSQL, according to one of the main developers of PostgreSQL.@Python: You don't need Monty, and we ain't joking.</abstract>
+        <abstract lang="en"/>
+      </talk>
+    </event>
+    <event tracks="1" tags="diffondere" duration="3" title="Django è pronto per l'Enterprise">
+      <talk url="http://www.pycon.it/conference/talks/django-e-pronto-per-lenterprise">
+        <speaker url="http://www.pycon.it/conference/speakers/simone-federici" name="Simone Federici" image="http://www.pycon.it/media/stuff/speaker/resized/simone-federici.jpg"/>
+        <abstract lang="it">Django è sulla bocca di tutti, è un full stack framework che ha messo una pietra di storia nel mondo python, e non solo. Ma perchè, in Italia, le grandi aziende per il web non riescono a uscire dal tunnel J2EE/JSF o, peggio, Struts?In questo talk porto alla luce differenze sostanziali di approccio alle problematiche comuni di applicazioni web, e ad architetture più complesse Enterprise. Ma cosa significa Enterprise? Tutto ciò che i clienti definiscono Enterprise lo è veramente?Come javista che pythonista, parlerò di cosa il mondo ava rimprovera al mondo python e come ho scoperto che le accuse fanno acqua]</abstract>
+        <abstract lang="en">Django is on everybody's mouth, it is a full stack framework representing a milestone in Python world, and not  only.So why do great web companies in Italy can not get out of J2EE/JSF, or worse than that, Strutstunnel?In this talk I bring to light substantial differences in approaching common web applications, and more elaborate Enterprise architectures. But what does Enterprise actually mean? Is anything that customers define Enterprise really Enterprise?  As a Javaist and a Pythonist, I'll speak about what Java world blame Python world with, and how I found out these accuses are full of holes.</abstract>
+      </talk>
+    </event>
+    <event tracks="1" tags="imparare" duration="6" title="Twisted for dummies">
+      <talk url="http://www.pycon.it/conference/talks/twisted-for-dummies">
+        <speaker url="http://www.pycon.it/conference/speakers/alan-franzoni" name="Alan Franzoni" image="http://www.pycon.it/media/stuff/speaker/resized/alan-franzoni.jpg"/>
+        <abstract lang="it">Un'introduzione gentile a Twisted, il noto framework per la programmazione asincrona . Si espongono le basi della programmazione asincrona, i concetti di deferred, protocol, transport e factory attorno ai quali ruota l'intera infrastruttura. Si darà poi spazio ad alcune best practices e ad alcuni errori comuni. Ampio rilievo sarà dato ad esempi di codice eseguiti ed eventualmente modificati sul posto. E' prevista una fase di Q&amp;amp;A per rispondere alle domande del pubblico.</abstract>
+        <abstract lang="en">A nice introduction to Twisted network programming framework. Asynchronous programming basics and Twisted concepts like deferred object, transport, factory, protocol will be described before proceeding to best practices and common gotchas. Live code examples and a Q&amp;amp;A session will complete the talk.</abstract>
+      </talk>
+    </event>
+  </slot>
+  <slot time="15:15:00">
+    <event tracks="1" tags="scoprire" duration="3" title="New and improved: Coming changes to the unittest module">
+      <talk url="http://www.pycon.it/conference/talks/new-and-improved-coming-changes-unittest-module">
+        <speaker url="http://www.pycon.it/conference/speakers/michael-foord" name="Michael Foord" image="http://www.pycon.it/media/stuff/speaker/resized/michael-foord.jpg"/>
+        <abstract lang="it"/>
+        <abstract lang="en">In Python 2.7 and 3.2 a whole bunch of improvements to unittest will arrive. unittest is the Python standard library testing framework and for several years it has languished whilst other Python testing frameworks have innovated. Some of the best innovations have made their way into unittest which has had quite a renovation.
+
+This talk will go through the major changes, like the new assert methods, new command line options, test discovery and the load_tests protocol. We'll also look at how these new features can be used with earlier versions of Python through the unittest2 package.</abstract>
+      </talk>
+    </event>
+    <event tracks="1" tags="diffondere" duration="3" title="Crogioli, alambicchi e beute: dove mettere i vostri dati.">
+      <talk url="http://www.pycon.it/conference/talks/crogioli-alambicchi-e-beute-dove-mettere-i-vostri">
+        <speaker url="http://www.pycon.it/conference/speakers/simone-deponti" name="Simone Deponti" image="http://www.pycon.it/media/stuff/speaker/resized/simone-deponti.jpg"/>
+        <abstract lang="it">Nel corso degli anni molte soluzioni per il data storage (in sensolato, database) sono emerse per far fronte alle più svariateesigenze: ognuna delle soluzioni ha dalla sua punti di forza e didebolezza.Scopo del talk è effettuare una breve panoramica delle &amp;quot;categorie&amp;quot; distorage attualmente utilizzate, nella fattispecie:* Database relazionali* Object database* BigTable-likePer ognuna di queste tre macro-categorie si passa ad una analisicomparativa delle soluzioni/interfacce python esistenti, evidenziandonepunti di forza e casi d'uso in cui essi danno il meglio.Nella fattispecie vengono presi in considerazione:* SQLAlchemy* ZODB* Thrift + HBaseLo scopo finale del talk è aiutare lo sviluppatore a scegliere lamigliore tecnologia per lo specifico task, o a utilizzare unacombinazione di esse laddove esso porti dei vantaggi.</abstract>
+        <abstract lang="en"/>
+      </talk>
+    </event>
+  </slot>
+  <slot time="16:00:00">
+    <event tracks="1" tags="scoprire" duration="4" title="PyCuda: Come sfruttare la potenza delle schede video nelle applicazioni python">
+      <talk url="http://www.pycon.it/conference/talks/pycuda-come-sfruttare-la-potenza-delle-schede-vide">
+        <speaker url="http://www.pycon.it/conference/speakers/fabrizio-milo" name="Fabrizio Milo" image="http://www.pycon.it/media/stuff/speaker/resized/fabrizio-milo.jpg"/>
+        <abstract lang="it">La sempre crescente necessità di risorse da parte dei video game ha spinto il mercato a progettare e produrre schede video con prestazioni elevate. Cuda è una tecnologia che permette di programmare queste schede video (GPU) in modo molto simile ai processori convenzionali (CPU). PyCuda è una estensione che permette di utilizzare questo modello di programmazione direttamente da python.Questo connubio tra la dinamicità di python e la potenza computazionale delle GPU dà vita a interessanti ed affascinanti applicazioni.Il talk si divide in    Introduzione alla programmazione per GPU    Cosa è cuda    Come è strutturato PyCuda su questa tecnologia (boost-python, numpy)    Gpu-Metaprogramming    Esempi pratici    Esempi scientifici    Domande e risposteQuesto talk è rivolto principalmente a persone che utilizzano python per calcolo scientifico o applicazioni grafiche intensive e presuppone una qualche conoscenza di numpy. Nonostante ciò tutti gli esempi sono molto visuali e possono essere apprezzati da qualsiasi spettatore.</abstract>
+        <abstract lang="en">The increasing need of resources in video games has been driving the market to design and produce high performance video boards. Cuda is a technology allowing to program these video boards (GPU) almost like conventional processors (CPU). PyCuda is an extension which allows to use this programming model in Python directly.This marriage between Python dynamism and GPU computation power gives life to interesting and fascinating applications.The talk is divided into:    Introduction to GPU programming    What cuda is    How  PyCuda is structured on this technology (boost-python, numpy)    Gpu-Metaprogramming    Practical examples    Scientific examples    Questions and answersThis talk is mainly addresses to people using Python for scientific computation or high graphic applications and assumes some knowledge of numpy. Nonetheless, all the examples are very visual and can be valued from all the audience.</abstract>
+      </talk>
+    </event>
+    <event tracks="1" tags="diffondere" duration="4" title="The Development Process of Python">
+      <talk url="http://www.pycon.it/conference/talks/the-development-process-of-python">
+        <speaker url="http://www.pycon.it/conference/speakers/ezio-melotti" name="Ezio Melotti" image="http://www.pycon.it/media/stuff/speaker/resized/ezio-melotti.jpg"/>
+        <abstract lang="it">Python è un linguaggio open source, dove tutti possono contribuire, ma hai mai pensato di farlo e renderlo ancora migliore?Negli ultimi due anni ho contribuito a Python prima come normale utente e in seguito come core developer. Con questo talk voglio rivelarvi quello che succede &amp;quot;dietro le quinte&amp;quot;.Durante il talk parlerò dei seguenti argomenti:gli strumenti usati;il workflow;la comunità;la struttura di CPython;il mantenimento delle due branch principali (Python 2.x e Python 3.x);i cambiamenti che avverranno con la migrazione da SVN a Mercurial e con Python 2.7.Se sei semplicemente curioso o se vuoi sapere come si evolve Python, questa è la tua occasione.</abstract>
+        <abstract lang="en">Python is an open source language, where everyone can contribute, but have you actually thought about working on it and making it even better?During the last two years I contributed to Python first as a normal user and now as a core developer and with this talk I want to unveil what happens &amp;quot;behind the scenes&amp;quot;.I will talk about:the tools used;the workflow;the community;the structure of CPython;how the two main branches (Python 2.x and Python 3.x) are maintained;what will change with the switch from SVN to Mercurial and with the release of Python 2.7.If you are just curious or if you want to know how Python evolves, this is your chance.</abstract>
+      </talk>
+    </event>
+    <event tracks="1" tags="imparare" duration="4" title="django design patterns">
+      <talk url="http://www.pycon.it/conference/talks/django-design-patterns">
+        <speaker url="http://www.pycon.it/conference/speakers/marco-paolini" name="Marco Paolini" image="http://www.pycon.it/media/stuff/speaker/resized/.jpg"/>
+        <abstract lang="it">Il tuo codice django è semplice come il framework su cui gira?Stai sovra-strutturando il codice? Fai attenzione ai censori della DRY!Prova a leggere il tuo codice dopo un mese: ti senti giù?E' il momento giusto per trovare il giusto equilibrio tra infrastrutture generiche e semplicità del codice. A volte qualche linea di codice in più è necessaria per spiegare cosa fa esattamente la tua view.Quando il progetto inizia a diventare corposo, come (e perchè) dividerlo in app diverse? Non è che stiamo sovra-strutturando?Qualche esempio concreto ci aiuterà a trovare l'approccio giusto per il nostro progetto. Leggiamo il codice degli altri, troviamo bug *architetturali* e risolviamoli.</abstract>
+        <abstract lang="en">Is your django code as simple as the framework it runs in?Are you overdesigning? Refactor now before the DRY police gets you!Try reading your own app after one month: how do you feel? Feeling lost? It's
+time to find the right balance between generic infrastructure and
+simplicity. Sometimes few more lines of code are needed to show exactly
+what your view is up to.When shoud you split a project in different django apps when it becomes largish? Is it worth it? Overdesigning again?A
+few real-world examples will help us find the right approiach for our
+own app. Let's read other people's code, find *architectural* bugs and
+fix the thing. </abstract>
+      </talk>
+    </event>
+  </slot>
+  <slot time="17:00:00">
+    <event tracks="3" tags="break" duration="3" title="Coffee break"/>
+  </slot>
+  <slot time="17:45:00">
+    <event tracks="1" tags="scoprire" duration="4" title="Building Tweet Engine, a Twitter management system on Google App Engine">
+      <talk url="http://www.pycon.it/conference/talks/building-tweet-engine-manage-system-on-app-engine">
+        <speaker url="http://www.pycon.it/conference/speakers/ikai-lan" name="Ikai Lan" image="http://www.pycon.it/media/stuff/speaker/resized/.jpg"/>
+        <abstract lang="it">This talk will cover the architecture and technologies used in Tweet Engine, a Python App Engine Hackathon project built during Snow Sprint Austria 2010. Tweet Engine seeks to allow multiple users to manage a single Twitter account through a simple, secure and easy to use interface.. This talk will cover the various technologies and how they tie into the design ofTweet Engine:    OAuth and the Twitter API    i18n and localization for App Engine    Building a persistence model for a distributed, non-relational datastore    Google App Stats for application profiling    Asynchronous task queuing and making requests fastAttendees of this talk should have some exposure to App Engine or Python web application development, as this will not be an introductory or beginner level talk. App Engine enthusiasts will learn about many of the new APIs and tools available, while general web development professionals will learn about OAuth, a third-party authentication mechanism for identity platforms as well as basic localization techniques for their applications.</abstract>
+        <abstract lang="en"/>
+      </talk>
+    </event>
+    <event tracks="1" tags="diffondere" duration="4" title="Cleanup and new optimizations in WPython 1.1">
+      <talk url="http://www.pycon.it/conference/talks/cleanup-and-new-optimizations-in-wpython-11">
+        <speaker url="http://www.pycon.it/conference/speakers/cesare-di-mauro" name="Cesare Di Mauro" image="http://www.pycon.it/media/stuff/speaker/resized/cesare-di-mauro.jpg"/>
+        <abstract lang="it">La prima alpha di WPython, presentato alla scorsa PyCon, con la rappresentazione basata su word (chiamata wordcode) ha posto le basi per una serie di ottimizzazioni al codice di CPython 2.6 che hanno permesso di ottenere consistenti guadagni in termini prestazionali.A un anno di distanza WPython 1.1 si presenta come un progetto più maturo, che ha comportato una riscrittura del codice di gestione delle costanti &amp;quot;non immutabili&amp;quot; (ad esempio liste e dizionari &amp;quot;costanti&amp;quot;), rendendolo &amp;quot;non invasivo&amp;quot; nei confronti dell'object model di CPython.Al contempo alcuni opcode sono stati riorganizzati, raggruppandone alcuni meno utilizzati e più complessi, e dedicando a quelli più comuni e frequenti apposite istruzioni per accelerarne l'esecuzione.Altre istruzioni sono state aggiunte per venire incontro ad alcuni pattern che si presentano nel codice Python, mentre altre sono state ottimizzate in particolari casi (come per gli slice). Inoltre, ove il contesto lo rendeva possibile, alcuni controlli inutili sono stati rimossi (ad esempio nelle append nelle list comprehension o in quelle del garbage collector).Il peephole optimizer è stato spostato in compiler.c, semplificandone notevolmente il codice grazie all'uso della struttura interna instr, che consente una più facile manipolazione degli opcode (in particolare per quanto riguarda i salti).Infine un'intera nuova famiglia di opcode &amp;quot;sperimentali&amp;quot; è stata aggiunta per gestire i casi in cui si eseguono operazioni binarie in cui uno dei due dati è un intero.</abstract>
+        <abstract lang="en">The first WPython alpha, that was presented at the last PyCon, thanks to the word representation (called wordcode) has built the basis for a series of optimizations to the CPython 2.6 code, which permitted to get notable performance gains.After one year WPython 1.1 shows itself as a more mature project, which has involved rewriting &amp;quot;non-immutable&amp;quot; constants code (such as for constant lists and dictionaries), making it &amp;quot;less invasive&amp;quot; towards the CPython object model.At the same time some opcodes were reorganized, grouping together some less used and more complex ones, leaving the most frequent and common to specific instructions to improve execution speed.Some instructions were added to satisfy some Python code patterns, whereas others were optimized for specific cases (such as for slices). Moreover, where the context made it possible, some useless controls were removed (on list comprehension and garbage collector appends, for example).The peephole optimizer was moved in compiler.c considerably simplifying the code thanks to the internal instr structure usage, which let an easier opcode manipulations (particularly for the jump ones).Finally, an entire new &amp;quot;experimental&amp;quot; opcodes family was added to handle binary operations cases where at least one data is an integer.</abstract>
+      </talk>
+    </event>
+    <event tracks="1" tags="imparare" duration="4" title="Lightspeed python programming with emacs">
+      <talk url="http://www.pycon.it/conference/talks/lightspeed-python-programming-with-emacs">
+        <speaker url="http://www.pycon.it/conference/speakers/andrea-crotti" name="Andrea Crotti" image="http://www.pycon.it/media/stuff/speaker/resized/andrea-crotti.jpg"/>
+        <abstract lang="it">In questo talk voglio mostrarvi come si può spremere il massimo emacs per migliorare drasticamente la vostra produttività.Darò una breve introduzione di elisp, python mode, auto complete e yasnippet e nella parte finale vi mostrerò org-mode.Org-mode insieme ad org-babel (http://orgmode.org/worg/org-contrib/babel/intro.php) è lo strumento perfetto per il literate programming  e la reproducible research.Il talk sarà in gran parte interattivo, dopo una breve carrellata di slides vi mostrerò all'opera questi strumenti meravigliosi.</abstract>
+        <abstract lang="en">In this talk I want to show you some how you can configure emacs to improve drastically your productivity.Emacs is wonderful and amazingly powerful, but as you probably know not so easy to master.I'll give a brief overview of elisp, python mode, auto complete and yasnippet, and in the last part I'll show you org-mode.Org-mode combined with org-babel (http://orgmode.org/worg/org-contrib/babel/intro.php) it's the perfect instrument for literate programming and reproducible research.The talk will be mostly interactive with real world examples after a short session of introductory slides.</abstract>
+      </talk>
+    </event>
+  </slot>
+  <slot time="18:45:00">
+    <event tracks="3" tags="special" duration="1" title="Fine giornata"/>
+  </slot>
+</schedule>

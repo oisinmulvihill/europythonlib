@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<schedule conference="pycon4" id="day1" time_slot="15">
+  <slot time="08:00:00">
+    <event tracks="3" tags="special" duration="3" title="registrazione"/>
+  </slot>
+  <slot time="08:45:00">
+    <event tracks="3" tags="scoprire" duration="1" title="presentazione"/>
+  </slot>
+  <slot time="09:00:00">
+    <event tracks="1" tags="imparare" duration="3" title="zc.buildout:">
+      <talk url="http://www.pycon.it/conference/talks/zcbuildout-un-modo-estremamente-civile-per-svilupp">
+        <speaker url="http://www.pycon.it/conference/speakers/lemmi-riccardo" name="Lemmi Riccardo" image="http://www.pycon.it/media/stuff/speaker/resized/lemmi-riccardo.jpg"/>
+        <abstract lang="it">Buildout e' un tool in Python per la creazione, lo sviluppo e la ...</abstract>
+        <abstract lang="en">Buildout is a Python tool for the creation, development and ...</abstract>
+      </talk>
+    </event>
+  </slot>
+</schedule>

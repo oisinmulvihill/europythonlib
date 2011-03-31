@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<schedule conference="pycon4" id="day1" time_slot="15">
+  <slot time="08:00:00">
+    <event tracks="3" tags="special" duration="3" title="registrazione"/>
+  </slot>
+  <slot time="08:45:00">
+    <event tracks="3" tags="scoprire" duration="1" title="presentazione"/>
+  </slot>
+  <slot time="09:00:00">
+    <event tracks="1" tags="scoprire" duration="3" title="The Ring of Python">
+      <talk url="http://www.pycon.it/conference/talks/ring-python">
+        <speaker url="http://www.pycon.it/conference/speakers/holger-krekel" name="Holger Krekel" image="http://www.pycon.it/media/stuff/speaker/resized/holger-krekel.jpg"/>
+        <abstract lang="it"/>
+        <abstract lang="en">CPython 2.5/2.6/3.1, Jython, IronPython, PyPy, StacklessPython, UnladenSwallow, Cython ... what do we make of all these cool interpreter projects and versions? Where does competition help and where does it hamper?
+ 
+In this interactive talk I'll highlight the main strengths of each of the Python interpreters. Furthermore, I'll discuss ways to leverage Python interpreters in a co-operative way, discuss challenges, projects and issues ahead and also briefly highlight 'execnet', one my own projects for bridging (Any) Python to (Any) Python. This is also the first time i am going to try out a new and funvisual presentation technique after several years of having done mostly text-based ones.</abstract>
+      </talk>
+    </event>
+    <event tracks="1" tags="diffondere" duration="3" title="GenroPy, un framework innovativo per applicazioni web AJAX">
+      <talk url="http://www.pycon.it/conference/talks/genropy-un-framework-innovativo-per-applicazioni-w">
+        <speaker url="http://www.pycon.it/conference/speakers/roberto-lupi" name="Roberto Lupi" image="http://www.pycon.it/media/stuff/speaker/resized/roberto-lupi.jpg"/>
+        <abstract lang="it">GenroPy è un framework web per lo sviluppo di applicazioni gestionali tutto italiano ed in pieno sviluppo, una pietra grezza che nasconde una gemma. Il suo approccio è differente dal resto degli strumenti per lo sviluppo web con python. Vi illustrerò la sua potenza e vi racconterò come in meno di due mesi mi ha permesso di sviluppare un’applicazione AJAX complessa con più di 150 forms ed altrettante stampe PDF.Scaletta (provvisoria):Introduzione: nicchia di mercato, specificità di genropyArchitettura a componenti: packages, istanze, sitiArchittura MVC: DB, UI, logica di businessAltre funzioni interessanti: generazione PDF, bagsConclusioni e prospettive futureAddendum: approfondimento sulle bags e punti di contatto con la programmazione funzionale (eventualmente come lighting talk separato)</abstract>
+        <abstract lang="en">GenroPy is a “made in italy” web framework for business applications, a rough stone that hides a precious gem. Its approach puts it apart from other python tools to develop web application. I’ll tell you about its power and how it enabled me to build a complex AJAX application with more than 150 web forms and a similar number of PDF reports in less than two months.</abstract>
+      </talk>
+    </event>
+    <event tracks="1" tags="imparare" duration="3" title="zc.buildout: &quot;Un modo estremamente civile per sviluppare un'applicazione&quot;">
+      <talk url="http://www.pycon.it/conference/talks/zcbuildout-un-modo-estremamente-civile-per-svilupp">
+        <speaker url="http://www.pycon.it/conference/speakers/lemmi-riccardo" name="Lemmi Riccardo" image="http://www.pycon.it/media/stuff/speaker/resized/lemmi-riccardo.jpg"/>
+        <abstract lang="it">Buildout e' un tool in Python per la creazione, lo sviluppo e la composizione di applicazioni di differente natura, comprese quelle non Python. Buildout permette di creare e riprodurre, con un file di configurazione, lo stesso ambiente con gli stessi programmi in qualsiasi momento.Buildout viene abitualmente utilizzato per la produzione di applicazioni:PloneZopeGrokDjangoPylonsRepozeBuildout e':semplice: permette di configurare l'intero ambiente ed i programmi con un solo file di configurazioneelastico: permette di mantenere piu' configurazioni per sviluppo, testing, produzione eccestendibile: puo' essere esteso tramite l'uso di recipe e di extensionsNel talk verra' mostrato un uso del buildout, mediante un semplice caso d'uso dalla semplice applicazione alla composizione di piu' applicazioni.Il titolo e' liberamente tratto da una citazione di Jacob Kaplan-Moss, co-creatore di django.  </abstract>
+        <abstract lang="en">Buildout is a Python tool for the creation, development and composition of different types of applications, included those not in Python. Buildout allows to create and repoduce, witha configuration file, the same environment with the same programs at any time.Usually, buildout is used  to produce these kinds of applications: PloneZopeGrokDjangoPylonsRepozeBuildout is:simple: it allows to configure all the environment and programs with one configuration fileelastic: it allows to maintain more than one configuration for developing, testing, producing and so onextensible: in can be extended by using recipes and extensionsIn the talk a way of using the buildout will be shown, through a simple use case from the mere application to the composition of more than one.The title is drawn from a quotation of Jacob Kaplan-Moss, co-creator of Django.</abstract>
+      </talk>
+    </event>
+  </slot>
+  <slot time="09:45:00">
+    <event tracks="1" tags="scoprire" duration="4" title="Python idiomatico">
+      <talk url="http://www.pycon.it/conference/talks/python-idiomatico">
+        <speaker url="http://www.pycon.it/conference/speakers/enrico-franchi" name="Enrico Franchi" image="http://www.pycon.it/media/stuff/speaker/resized/enrico-franchi.jpg"/>
+        <abstract lang="it">Python è un linguaggio di alto livello altamente espressivo che privilegia leggibilità, chiarezza ed astrazione. Questi valori sono talmente sentiti all’interno della comunità da creare il concetto di “codice pythonico”, essenzialmente richiedendo al “buon codice” non solo la semplice correttezza semantica, ma anche il rispetto di criteri stilistici ben definiti e universalmente riconosciuti.Una condizione necessaria da questo punto di vista è saper scrivere codice idiomatico.In un linguaggio di programmazione gli “idiomi” sono modi tipici di scrivere e strutturare codice in modo peculiare al linguaggio stesso, il che vuole dire che non sono tipicamente traducibili immediatamente in linguaggi differenti e richiedono uno studio specifico da chi si avvicina per la prima volta al linguaggio. Il vantaggio è che sono generalmente coincisi e ben riconoscibili da chi ha già padronanza del linguaggio, portando il discorso a un livello di astrazione superiore, creando codice più facilmente mantenibile.Scrivere questo tipo di codice è generalmente una questione di gusto acquisito e di esperienza, ma alcune convenzioni e idiomi diffusisi nel corso degli anni possono essere facilmente illustrati e imparati fin dall’inizio della propria “carriera di Pythonista”, rendendo più facile la fruizione del codice altrui e migliorando il proprio stile.Il presente è un talk di carattere relativamente introduttivo per illustrare le principali convenzioni e i più diffusi idiomi tipici del linguaggio Python.Dopo un breve riepilogo delle convenzioni di nomenclatura suggerite nella famosa PEP8, si passerà all’analisi e alla descrizione di tipici idiomi pythonici e di alcuni anti-pattern, con considerazioni su leggibilità ed efficienza.</abstract>
+        <abstract lang="en"/>
+      </talk>
+    </event>
+    <event tracks="1" tags="diffondere" duration="4" title="Python FUSE – Beyond the Traditional File-Systems">
+      <talk url="http://www.pycon.it/conference/talks/python-fuse-beyond-the-traditional-file-systems">
+        <speaker url="http://www.pycon.it/conference/speakers/matteo-bertozzi" name="Matteo Bertozzi" image="http://www.pycon.it/media/stuff/speaker/resized/matteo-bertozzi.jpg"/>
+        <abstract lang="it">The Talk gives you an introduction to file-systems, what they’re, how they’re implemented and what is the state of the art.After a brief Traditional File-Systems introduction we will try to go beyond the tradition we some fresh ideas and introducing FUSE, that allows you to create your own file-system without editing the kernel.But Developers need code, so… after a brief Python FUSE API Overview and the first Hello World File-System, we will try to implement a couple of non traditional file-systems, but the Talk doesn’t end here. Ideas, Data Structure and much more fun waits you!</abstract>
+        <abstract lang="en">The Talk gives you an introduction to file-systems, what they’re, how they’re implemented and what is the state of the art.After a brief Traditional File-Systems introduction we will try to go beyond the tradition we some fresh ideas and introducing FUSE, that allows you to create your own file-system without editing the kernel.But Developers need code, so… after a brief Python FUSE API Overview and the first Hello World File-System, we will try to implement a couple of non traditional file-systems, but the Talk doesn’t end here. Ideas, Data Structure and much more fun waits you!</abstract>
+      </talk>
+    </event>
+    <event tracks="1" tags="imparare" duration="4" title="Django + iPhone Crash Course">
+      <talk url="http://www.pycon.it/conference/talks/django-iphone-crash-course">
+        <speaker url="http://www.pycon.it/conference/speakers/francesco-crippa" name="Francesco Crippa" image="http://www.pycon.it/media/stuff/speaker/resized/francesco-crippa.jpg"/>
+        <abstract lang="it">Django é uno dei più popolari framework per la realizzazione di applicazioni web &amp;quot;full-stack&amp;quot;.La sua facilita' d'uso, abbinata alla ricchezza di componenti disponibili e all'incredibile scalabilità offerta, ne fanno un ottimo strumento per la realizzazione di applicazione complesse ed evolute.Questo talk mostrerà, passo dopo passo, come realizzare un'applicazione web partendo da 'zero' ottimizzata per funzionare su dispositivi mobili (Apple iPhone nel caso specifico), utilizzando componenti ed effetti grafici (transizioni, widget, etc) propri di questa piattaforma.</abstract>
+        <abstract lang="en">Django is one of the most popular &amp;quot;rapid-web-development&amp;quot; frameworks.The incredible &amp;quot;easy-to-use&amp;quot; API, the availability of thousands of different brilliant components and the massive scalability offered by the platform are the key points of the Django success.This speech will be focused on how to create a new application from scratch (step by step), using specific components dedicated to Apple iPhone mobile clients (transitions, buttons, widgets, etc..)</abstract>
+      </talk>
+    </event>
+  </slot>
+  <slot time="10:45:00">
+    <event tracks="3" tags="break" duration="3" title="Coffee break"/>
+  </slot>
+  <slot time="11:30:00">
+    <event tracks="1" tags="scoprire" duration="2" title="Python in the Browser">
+      <talk url="http://www.pycon.it/conference/talks/python-browser">
+        <speaker url="http://www.pycon.it/conference/speakers/michael-foord" name="Michael Foord" image="http://www.pycon.it/media/stuff/speaker/resized/michael-foord.jpg"/>
+        <abstract lang="it"/>
+        <abstract lang="en">You write your server code in Python because you want to. You write your browser code in JavaScript because you have to. But with IronPython and Silverlight, you can write your browser code in Python and leave JavaScript behind. That's what I've been doing for the last six months, writing complex business applications that run in the browser in Python. In this talk we will look at what is possible, including the new “just text” model where Python code is embedded directly in HTML pages. Even if you develop on Linux or Mac, you can still take advantage of Silverlight in the browser.</abstract>
+      </talk>
+    </event>
+    <event tracks="1" tags="diffondere" duration="2" title="Jython for Embedded Software Validation">
+      <talk url="http://www.pycon.it/conference/talks/jython-for-embedded-software-validation">
+        <speaker url="http://www.pycon.it/conference/speakers/raniero-virgilio" name="Raniero Virgilio" image="http://www.pycon.it/media/stuff/speaker/resized/raniero-virgilio.jpg"/>
+        <abstract lang="it">Because of the inherent diversity of software environments, test automation in embedded systems requires a flexible software model and an easily customizable architecture, especially when the validation on a single hardware platform might involve a number of deployments of the system under test on multiple OSs.A win choice in this scenario can be the adoption of a flexible design pattern, as the runtime plug-in model, helping test engineers to compose and integrate their test solutions on a shared and distributed framework, tailoring the provided services to their needs.In this talk we discuss how we addressed this problem by exploiting the open source Eclipse platform together with the adaptability of Jython. The proposed solution enables users to develop their own test environments in Jython, for device driver validation, as autonomous and self-contained software components - called Execution Engines – that implement the required test logic and may be plugged in at runtime and executed concurrently on one single Eclipse platform.The talk will cover the technical challenges behind this model, and the great efficiency improvements that Jython offers in terms of ease of integration with existing systems, short ramping time and ease of deployment on different platforms (Linux/Windows).</abstract>
+        <abstract lang="en"/>
+      </talk>
+    </event>
+    <event tracks="1" tags="imparare" duration="2" title="ZODB: database ad oggetti in python.">
+      <talk url="http://www.pycon.it/conference/talks/zodb-database-ad-oggetti-in-python">
+        <speaker url="http://www.pycon.it/conference/speakers/lemmi-riccardo" name="Lemmi Riccardo" image="http://www.pycon.it/media/stuff/speaker/resized/lemmi-riccardo.jpg"/>
+        <abstract lang="it">Spesso per le nostre applicazioni utilizziamo un database relazionale per poi convertirlo tramite un ORM in un modello ad oggetti. In questi casi lo ZODB può essere una valida soluzione alternativa: più semplice ed efficiente.Vedremo come usare lo ZODB al di fuori dell'ambito Zope ed esempi pratici d'uso.</abstract>
+        <abstract lang="en">We often use for our applications a relational database and then we turn it into an object model by using an ORM. In these cases, a ZODB can be an alternative solution: simpler and more efficient.We'll see how to use a ZODB out of the Zope field, and some practical example cases.</abstract>
+      </talk>
+    </event>
+  </slot>
+  <slot time="12:00:00">
+    <event tracks="1" tags="scoprire" duration="4" title="PyHP &amp; LiWE">
+      <sponsor name="OS3" url="http://www.os3.it/"/>
+      <talk url="http://www.pycon.it/conference/talks/pyhp-liwe">
+        <speaker url="http://www.pycon.it/conference/speakers/fabio-rotondo" name="Fabio Rotondo" image="http://www.pycon.it/media/stuff/speaker/resized/fabio-rotondo.jpg"/>
+        <abstract lang="it">In questo talk introdurremo PyHP il linguaggio server-side per lo sviluppo web, molto simile a PHP come filosofia e approccio di funzionamento, ma che utilizza Python come scripting engine. 
+
+PyHP permette a chi conosce Python di iniziare subito a scrivere pagine dinamiche, con una curva di apprendimento molto bassa.
+
+LiWE (Lightweight Web Environment) è una suite di librerie e moduli per lo sviluppo rapido di applicazioni web. LiWE è server-agnostic nel senso che lato server è possibile utilizzare il linguaggio / application server che più si preferisce (al momento LiWE funziona correttamente con cgi C, script PHP, Perl e PyHP).
+
+Durante il talk presenteremo l'integrazione LiWE con PyHP con un breve esempio di utilizzo.</abstract>
+        <abstract lang="en">In this talk we will introduce PyHP, a language for server-side development, very close to PHP for its philosophy and working approach, but based on Python as the scripting engine. 
+
+PyHP allows Python developers to start head first in dynamic page writing, with a very low learning curve.
+
+LiWE (Lightweight Wev Environment) is a suite of libraries and modules for rapid web application development. LiWE is "server-agnostic" because you can use the language / wev application server you want server side  (at the moment, LiWE has been successfully used with C cgi, PHP scripts, Perl and PyHP).
+
+During this talk we'll introduce you LiWE and PyHP integration with a short example.</abstract>
+      </talk>
+    </event>
+    <event tracks="1" tags="diffondere" duration="4" title="Effective EC2">
+      <talk url="http://www.pycon.it/conference/talks/effective-ec2">
+        <speaker url="http://www.pycon.it/conference/speakers/valentino-volonghi" name="Valentino Volonghi" image="http://www.pycon.it/media/stuff/speaker/resized/valentino-volonghi.jpg"/>
+        <abstract lang="it">The most interesting infrastructural trend of the last years is the so called cloud computing. Amazon in 2006 started this fast paced evolution of the data centers when they introduced Amazon S3 and later that same year Amazon EC2. The market for cloud computing services has been booming since those days with now dozens of different offerings and service providers that sell their own management solutions on top of the official APIs.In an effort to take advantage of all the benefits that come with an automatic and quick provisioning of hardware I've recently decided to migrate my company's data center entirely inside EC2. In this talk, after explaining the overall architecture of the system and evaluating the competition, I'll show the problems and lessons that I've learned during the migration and how Adroll.com Python infrastracture was adapted to run inside EC2.</abstract>
+        <abstract lang="en"/>
+      </talk>
+    </event>
+    <event tracks="1" tags="imparare" duration="4" title="Foxgame: Introduzione all'Apprendimento Automatico">
+      <talk url="http://www.pycon.it/conference/talks/foxgame-introduzione-allapprendimento-automatico">
+        <speaker url="http://www.pycon.it/conference/speakers/michele-orru" name="Michele Orrù" image="http://www.pycon.it/media/stuff/speaker/resized/michele-orru.jpg"/>
+        <speaker url="http://www.pycon.it/conference/speakers/davide-rizzo" name="Davide Rizzo" image="http://www.pycon.it/media/stuff/speaker/resized/davide-rizzo.jpg"/>
+        <abstract lang="it"> Un videogioco open source, poche regole semplici, l'estendibilità tipica di un progetto Python, e poi una sfida. Foxgame è progettato per fornire un campo di prova per chi vuole imparare tecniche di IA, per sperimentare sia le nuove soluzioni, sia quelle più familiari.In un universo bidimensionale con una meccanica intuitiva, si muovono delle volpi predatrici all'inseguimento di una lepre, che può guadagnarsi l'incolumità correndo dietro alle carote.Nel talk presenteremo e sperimenteremo tecniche da svariati campi del controllo e dell'apprendimento: controllo tradizionale e fuzzy, reti neurali, e apprendimento per rinforzo. Forniremo una breve introduzione a ciascuna di queste tecniche, quindi mostreremo un esempio dettagliato sullo sviluppo di un semplice algoritmo.Durante il talk verrà lanciata una sfida: proporremo ai presenti di partecipare e di sviluppare algoritmi di controllo per le volpi e le lepri. Le AI inviate verranno suddivise per categorie e confrontate con le altre AI e con giocatori umani. Saranno ben accette sia implementazioni tradizionali per chi fa i primi passi nel campo e vuole un confronto, sia proposte innovative e di professionisti!
+Relatori: Michele Orrù, Daniele Iamartino, Davide Rizzo
+Updated:FoxGame Contest!
+</abstract>
+        <abstract lang="en">An open source video game, a few simple rules, the typical extensibility of a Python project, and then a challenge. Foxgame is developed to give a test field for those who want to learn AI techniques, to experiment both the new solutions and the more familiar ones.In a two-dimensional universe with an intuitive mechanics, predator foxes move to chase a hare, who can gain safety running after carrots. In the talk, we will present and experiment techniques coming from various fields of control and learning: traditional and fuzzy control, neural networks and reinforced learning.We'll provide a brief introduction for each of these techniques, then we'll show a detailed example about the development of a simple algorithm.During the talk it will be thrown down the gauntlet: we're going to propose to the audience to get involved and develop control algorithms for foxes and hares. The AIs submitted will be divided into categories and compared with the other AIs and human players. Both traditional implementations from those moving the first steps in this field and wanting a  comparison and innovative and professional proposals will be welcome.Speakers: Michele Orrù, Daniele Iamartino, Davide RizzoUpdated:FoxGame Contest!</abstract>
+      </talk>
+    </event>
+  </slot>
+  <slot time="13:00:00">
+    <event tracks="3" tags="break" duration="6" title="Pranzo"/>
+  </slot>
+  <slot time="14:30:00">
+    <event tracks="1" tags="scoprire" duration="3" title="Taming Twisted with Generator Trampolines: An Introduction to Monocle">
+      <talk url="http://www.pycon.it/conference/talks/taming-twisted-generator-trampolines-introduction-">
+        <speaker url="http://www.pycon.it/conference/speakers/raymond-hettinger" name="Raymond Hettinger " image="http://www.pycon.it/media/stuff/speaker/resized/raymond-hettinger.jpg"/>
+        <abstract lang="it"/>
+        <abstract lang="en">The usual style of client/server programming using Twisted involves
+writing many callbacks and error-handlers.Sequences of events
+get lost in a sea of unconnected methods.  The Monocle module
+provides a straight-forward way of consolidating event sequences
+and their error handlers into a single generator.The resulting
+code is clean, easy-to-write, and easy-to-read.
+
+This talk walks through examples of how to write client/server logic
+using Monocle and then it explores how Monocle works, starting
+with a trampoline model using simple generators, improving the
+model with generators that can return values, and showing how
+exceptions can be cleanly wrapped into the model.
+
+Walk away with a clear understanding of how to use Monocle
+and how it works.</abstract>
+      </talk>
+    </event>
+    <event tracks="1" tags="diffondere" duration="3" title="OpenERP e l'arte della gestione aziendale con Python">
+      <talk url="http://www.pycon.it/conference/talks/openerp-e-larte-della-gestione-aziendale-con-pytho">
+        <speaker url="http://www.pycon.it/conference/speakers/davide-corio" name="Davide Corio" image="http://www.pycon.it/media/stuff/speaker/resized/davide-corio.jpg"/>
+        <abstract lang="it">Ogni giorno nascono ambienti di sviluppo ad alto livello. Molti di questi sono scritti in Python (Django, Zope, TurboGears ad esempio) grazie alla sua sua elasticità e semplicità di apprendimento.OpenERP è un esempio di framework ad altissimo livello, dove lo sviluppo si trasforma spesso in una chiacchierata con il RAD.Durante il talk vedremo come utilizzare OpenObject, ovvero l'ambiente di sviluppo di OpenERP, per sviluppare una semplice applicazione dimostrativa in grado di farvi comprendere le potenzialità di questo strumento.</abstract>
+        <abstract lang="en">Every day some high-level development environments are born.A lot of them are written in Python (for example Django, Zope, TurboGears) due to its agility and learning easiness. OpenERP is an example of a most high-level framework, where development often turns into a chat with RAD. During the talk we'll see how to use OpenObject, that is Open ERP development environment, to develop a simple demonstrative application able  to make you understand the potential of this tool.</abstract>
+      </talk>
+    </event>
+    <event tracks="1" tags="imparare" duration="3" title="Ice: a framework for middlewares">
+      <talk url="http://www.pycon.it/conference/talks/ice-a-framework-for-middlewares">
+        <speaker url="http://www.pycon.it/conference/speakers/cesare-di-mauro" name="Cesare Di Mauro" image="http://www.pycon.it/media/stuff/speaker/resized/cesare-di-mauro.jpg"/>
+        <abstract lang="it">Ice (Internet Communications Engine) è un framework open source che nasce per la realizzazione di middleware e sistemi di comunicazione basati su un protocollo robusto e affidabile, che implementa, spesso a costo zero, politiche di retry, fault-tolerance, bilanciamento / distribuzione del carico e versioning. Rispetto a SOAP e CORBA, si pone come soluzione semplificata, con l'obiettivo di mettere in piedi sistemi in poco tempo, garantendo comunque un'elevata scalabilità e manutenibilità. Supporta diversi linguaggi, ma trova in Python un perfetto compagno grazie all'intrinseca dinamicità e facilità che da sempre  lo contraddistinguono. Il talk verterà sulla presentazione della tecnologia alla base di Ice, con un esempio completo di realizzazione di una piattaforma client / server.</abstract>
+        <abstract lang="en">Ice (Internet Communications Engine) is an open source framework which arises for middleware and communication systems production, based on a robust and reliable protocol which implements, very often at zero cost, retry policies, fault-tolerance, load balancing / distribution, and versioning.Compared to SOAP and CORBA it's a simplified solution, with the purpose to build up systems in short time, assuring high scalability and maintenance in each case.It supports several languages, but it finds in Python the perfect buddy thanks to the intrinsic dynamism and easiness that marks it all along. The talk will be focussing on the Ice base technology presentation, with a complete example of a client / server platform implementation</abstract>
+      </talk>
+    </event>
+  </slot>
+  <slot time="15:15:00">
+    <event tracks="1" tags="scoprire" duration="3" title="Rapid multi-purpose testing">
+      <talk url="http://www.pycon.it/conference/talks/rapid-multi-purpose-testing">
+        <speaker url="http://www.pycon.it/conference/speakers/holger-krekel" name="Holger Krekel" image="http://www.pycon.it/media/stuff/speaker/resized/holger-krekel.jpg"/>
+        <abstract lang="it"/>
+        <abstract lang="en">Want to rapidly test code, javascript or documents on different Python Interpreters and versions?
+This talk gives an overview on new py.test features of the last year. I'll discuss the minimal-boilerplate testing and new plugin model and give an overview on which testing needs are covered so far, for example:
+
+ 
+run tests written for nose or unittest
+ad-hoc distribute tests to local or remote Python environments
+test compatibility with Python3
+run javascript unit-tests in real browsers
+coverage testing
+django-specific testing
+
+
+I'll conclude with upcoming features regarding testing-in-the-cloud and plans on more test tool convergence. (http://pytest.org)</abstract>
+      </talk>
+    </event>
+    <event tracks="1" tags="diffondere" duration="3" title="Comet web applications with Python, Django &amp; Orbited">
+      <talk url="http://www.pycon.it/conference/talks/comet-web-applications-with-python-django-orbited">
+        <speaker url="http://www.pycon.it/conference/speakers/massimo-scamarcia" name="Massimo Scamarcia" image="http://www.pycon.it/media/stuff/speaker/resized/.jpg"/>
+        <abstract lang="it">Developing &amp;quot;realtime&amp;quot; web applications it has never been so easy thanks to Orbited, an implementation of the &amp;quot;Comet&amp;quot; development model written in Python and Javascript.The first part of the talk will introduce the argument showing all sort of different techniques, highliting all merits and defects and prove how Orbited could be used successfully in this field.In the second part it will be showed the implementation of an application developed with Django web framework, that could be tried directly by the public.</abstract>
+        <abstract lang="en"/>
+      </talk>
+    </event>
+    <event tracks="1" tags="imparare" duration="3" title="Python + grep + awk + C + bash">
+      <talk url="http://www.pycon.it/conference/talks/python-grep-awk-c-bash">
+        <speaker url="http://www.pycon.it/conference/speakers/matteo-bertini" name="Matteo Bertini" image="http://www.pycon.it/media/stuff/speaker/resized/matteo-bertini.jpg"/>
+        <speaker url="http://www.pycon.it/conference/speakers/lorenzo-mancini" name="Lorenzo Mancini" image="http://www.pycon.it/media/stuff/speaker/resized/lorenzo-mancini.jpg"/>
+        <abstract lang="it">I requisiti di un linguaggio nel dinamico ed incerto mondo della ricerca sono particolari. Spesso la soluzione migliore è quella che gira, l'importante è avere la risposta ad una domanda: «è una strada buona?»Però una soluzione ha senso solo se permette di collaborare con gli altri, sia usare codice di altri che farsi usare.Python è un ottimo linguaggio per incollare parti ma ancor di più per dare un senso a queste parti quando il prototipo deve diventare una parte di codice inserita in un workflow di esperimenti più complessi.In questa track, partendo da dati e programmi/codice preesistenti, creeremo un semplice workflow di machine learning, parallelizzando (dove banale) e riusando (dove conviene) il codice esistente ed i risultati già calcolati.</abstract>
+        <abstract lang="en">The requirements of a language in the dynamic and uncertain world of research are peculiar. The best solution is often the one that works, the important thing is to have the answer to one question:&amp;quot;Is it a good path?&amp;quot;But a solution is sensible only if it allows to cooperate with other people, both using someone else's code and being used by others.Python is an excellent language to paste different parts but especially to give these parts a meaning when the prototype has to become a piece of code included in a workflow of more complex experiments.In this track, starting from existing data and programs/code, we'll create a simple machine learning workflow, parallelizing (where it is elementary) and reusing (where is is useful) the existing code and the already obtained results.</abstract>
+      </talk>
+    </event>
+  </slot>
+  <slot time="16:00:00">
+    <event tracks="1" tags="scoprire" duration="6" title="Python from PostgreSQL from Python: Details for Developers">
+      <talk url="http://www.pycon.it/conference/talks/python-from-postgresql-from-python">
+        <speaker url="http://www.pycon.it/conference/speakers/hannu-krosing" name="Hannu Krosing" image="http://www.pycon.it/media/stuff/speaker/resized/hannu-krosing.jpg"/>
+        <abstract lang="it">The talk will be about current state of python with postgreSQL, from both sides,1) Using postgreSQL from python or Python postgreSQL Driver Soup* how python gained so many slightly different ways to access the   postgreSQL database, which ones should one know and what is still missing.* Is there a more pythonic way to do database interaction that plain DBAPI    2) PL/Python - Using python as an embedded language inside postgreSQL* State of the Pl/Python  * where we are  * why are we still there  * where could we go  * what would be needed to get there  * could pl/python be more than &amp;quot;just another pl for postgreSQL&amp;quot;3) Skytools - a python framework for writing postgreSQL-oriented apps  - How did it evolve - What does it provide, how it integrates with standard python modules - What does it _not_ provide - When to use it - When to use it not</abstract>
+        <abstract lang="en"/>
+      </talk>
+    </event>
+    <event tracks="1" tags="diffondere" duration="6" title="Python, ottimizzazione numerica, algoritmi genetici">
+      <talk url="http://www.pycon.it/conference/talks/python-ottimizzazione-numerica-algoritmi-genetici">
+        <speaker url="http://www.pycon.it/conference/speakers/davide-rizzo" name="Davide Rizzo" image="http://www.pycon.it/media/stuff/speaker/resized/davide-rizzo.jpg"/>
+        <abstract lang="it">Ottimizzazione matematica significa affrontare una decisione complessa trovando la soluzione che riduca il costo al minimo, che renda più soddisfatti i miei clienti, che massimizzi l'efficienza del mio sistema.Python è entrato con forza da anni nel mondo del calcolo numerico e apre ai suoi sviluppatori potenzialità enormi per la risoluzione di problemi di ricerca dell'ottimo.In questa introduzione mostrerò gli approcci principali ai problemi di ottimizzazione numerica, sfruttando strumenti già ben conosciuti nel mondo scientifico quali SciPy e PyMathProg, e presenterò alcuni esempi applicativi.Illustrerò gli algoritmi genetici come strumento di ricerca dell'ottimo secondo un approccio diverso da quelli numerici tradizionali, facile da padroneggiare grazie a Python (PyGene) e adatto a una nuova classe di problemi applicativi da cui trarrò esempi significativi.</abstract>
+        <abstract lang="en">Mathematical optimization means to face a complex decision and find the solution which reduces the cost to a minimum, which satisfies my customers the most, which maximizes my system efficiency.Python entered by force in the world of numerical analisys years ago and opens to users enormous potentials to resolve problems while looking for the optimum.In this introduction I'll show the main approaches to numerical optimization problems, making use of tools that are already known in scientific world as SciPy and PyMathProg, and I'll present some application examples.I'll explain genetic algorithms as a research instrument for the optimum according to an approach that is different compared to the traditional numeric ones, easy to handle thanks to Python (PyGene) and suitable for a new class of application problems from which I''ll take some significant examples. </abstract>
+      </talk>
+    </event>
+    <event tracks="1" tags="imparare" duration="6" title="Introduzione alla programmazione funzionale">
+      <talk url="http://www.pycon.it/conference/talks/introduzione-alla-programmazione-funzionale">
+        <speaker url="http://www.pycon.it/conference/speakers/michele-simionato" name="Michele Simionato" image="http://www.pycon.it/media/stuff/speaker/resized/michele-simionato.jpg"/>
+        <speaker url="http://www.pycon.it/conference/speakers/nicola-larosa" name="Nicola Larosa" image="http://www.pycon.it/media/stuff/speaker/resized/nicola-larosa.jpg"/>
+        <abstract lang="it">In questo talk interattivo io e Nicola Larosa cercheremo di illustrarecosa significa &amp;quot;pensare in maniera funzionale&amp;quot; quando si lavorain un linguaggio come Python che funzionale non e'.In primo luogo cercheremo di sfatare alcuni luoghi comuni sullaprogrammazione funzionale (programmare funzionalmente NON vuoldire usare map, filter e reduce). In secondo luogo mostreremovari errori comuni che non si commetterebbero se si pensasse inmaniera piu' funzionale (mutare variabili globali, basarsi su effetticollaterali, eccetera). La terza parte del talk sara' un po' piu'esplorativa, mostrando qualche scorcio del vasto mondo funzionaleche esiste al di fuori di Python: in particolare mostreremo ledifferenze tra un linguaggio con qualche supporto per laprogrammazione funzionale (come Python) ed un &amp;quot;vero&amp;quot; linguaggio funzionale.Lo scopo del talk e' quello di illustrare tecniche che permettonodi scrivere codice piu' semplice e piu' manutenibile, non quellodi decantare le virtu' della programmazione funzionale ad ognicosto. Non ci interessa spiegare come convertire tutti i for loopin chiamate ricorsive: l'interessante e' discutere comeutilizzare un design funzionale piuttosto che uno basato sumutazione ed effetti collaterali.</abstract>
+        <abstract lang="en"/>
+      </talk>
+    </event>
+  </slot>
+  <slot time="17:30:00">
+    <event tracks="3" tags="break" duration="3" title="Coffee break"/>
+  </slot>
+  <slot time="18:15:00">
+    <event tracks="3" tags="scoprire" duration="4" title="PyPy 1.2: snakes never crawled so fast">
+      <talk url="http://www.pycon.it/conference/talks/pypy-12-snakes-never-crawled-so-fast">
+        <speaker url="http://www.pycon.it/conference/speakers/antonio-cuni" name="Antonio Cuni" image="http://www.pycon.it/media/stuff/speaker/resized/antonio-cuni.jpg"/>
+        <speaker url="http://www.pycon.it/conference/speakers/armin-rigo" name="Armin Rigo" image="http://www.pycon.it/media/stuff/speaker/resized/armin-rigo.jpg"/>
+        <abstract lang="it">PyPy 1.2 è stato da poco rilasciato: la caratteristica saliente dalla nuova
+versione è il nuovo compilatore JIT, che può incrementare notevolmente le
+prestazione dei programmi in Python.
+
+In questo talk, spiegheremo come il compilatore JIT è implementato e, aspetto
+più importante, come funziona dal punto di vista dell'utente: in particolare,
+vedremo quali tipi di programma possono trarre i maggiori benefici dalla
+presenza del JIT.
+
+Infine, presenteremo un modo per integrare PyPy all'interno applicazioni già
+esistenti basate su CPython, per far sì che gradualmente le parti più critiche
+per le prestazioni siano eseguite da PyPy, in modo da poter godere dei suoi
+benefici fin da subito.
+</abstract>
+        <abstract lang="en">PyPy 1.2 has been recently released: the highlight of the new version is on
+the new JIT compiler, which can hugely increase the performances of Python
+programs.
+
+In this talk we explain how the JIT compiler is implemented, and most
+importantly how it works from the point of view of the user: in particular, we
+see which kind of programs can benefit most from the presence of the JIT.
+
+Finally, we present a way to integrate PyPy into existing applications based
+on CPython, to gradually make the performance critical parts to be executed by
+PyPy and get its benefits already now.</abstract>
+      </talk>
+    </event>
+  </slot>
+  <slot time="19:15:00">
+    <event tracks="3" tags="special" duration="1" title="Fine giornata"/>
+  </slot>
+  <slot time="21:30:00">
+    <event tracks="3" tags="special" duration="1" title="PyBirra"/>
+  </slot>
+</schedule>
